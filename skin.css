@@ -498,7 +498,7 @@ LAYOUT & TYPOGRAPHY
 body, textarea {
     font-family: 'Montserrat', sans-serif;
     line-height: 30px;
-    font-size: 14px;
+    font-size: 18px;
     font-weight: 500;
 }
 
@@ -1093,8 +1093,7 @@ COMPONENTS
 */
 
 .timeline .panel {
-    border-bottom: 1px solid rgb(205, 216, 224);
-    border-right: 1px solid rgb(205, 216, 224);
+    
 }
 
 .timeline > div:last-child .panel {
@@ -1115,9 +1114,9 @@ COMPONENTS
 }
 
 .timeline .panel, .timeline div.inverted .panel, .timeline div.inverted .panel:last-child, .timeline .panel:last-child {
-    width: 70%;
+    width: 100%;
     border-radius: 0;
-    padding: 30px 30px 30px 0;
+    padding: 0px 30px 30px 30px;
 }
 
 .timeline div.inverted .panel:last-child {
@@ -1125,8 +1124,8 @@ COMPONENTS
 }
 
 .timeline > div .badge {
-    width: 30%;
-    left: 70%;
+    width: 60%;
+    left: 66%;
     padding-left: 30px;
 }
 
@@ -1346,7 +1345,7 @@ button.btn-text {
     color: rgb(255, 255, 255);
     font-weight: 600;
     text-transform: uppercase;
-    font-size: 11px;
+    font-size: 25px;
     letter-spacing: .5px;
     padding: 0 10px;
     border-radius: 3px;
